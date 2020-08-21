@@ -1,0 +1,29 @@
+
+*.iml
+
+.idea/
+
+/tmp/billing-target
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+
+#####=== Scala ===#####
+
+*.class
+*.log
+
+# sbt specific
+.lib/
+dist/*
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.ensime_cache/
+.ensime
+
